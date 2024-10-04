@@ -16,7 +16,7 @@ export default class NotificationsList extends Component {
 
 
 
-        <div className="flex flex-1 mx-9 py-5 border-b-2" >
+        <div className="flex flex-1 mx-9 py-4 border-b-2" >
           <div className="flex justify-center w-[55px] h-[50px] pt-2 rounded-full overflow-hidden  bg-[#E2E7FF]">
             <img src={User3} className="w-[45px] h-[45px] object-contain" alt='User3.1'/>
           </div>
@@ -28,7 +28,7 @@ export default class NotificationsList extends Component {
             </div>
           </div>
         </div>
-        <div className="flex flex-1 mx-9 py-5 border-b-2 " >
+        <div className="flex flex-1 mx-9 py-4 border-b-2 " >
           <div className="flex justify-center w-[55px] h-[50px] pt-2 rounded-full overflow-hidden  bg-[#E2E7FF]">
             <img src={User4} className="w-[45px] h-[45px] object-contain" alt='User4' />
           </div>
@@ -40,7 +40,7 @@ export default class NotificationsList extends Component {
             </div>
           </div>
         </div>
-        <div className="flex flex-1 mx-9 py-5" >
+        <div className="flex flex-1 mx-9 py-4" >
           <div className="flex justify-center w-[55px] h-[50px] pt-2 rounded-full overflow-hidden">
             <img src={User3} className="w-[45px] h-[45px] object-contain" alt='User3'/>
           </div>
