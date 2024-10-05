@@ -19,7 +19,7 @@ export default class QuickStats extends Component {
 
 
     componentDidMount() {
-        axios.get('http://20.247.206.163/api/customers/count')
+        axios.get('/api/customers/count')
             .then(response => {
                 this.setState({
                     customersCount: response.data.count,
@@ -30,7 +30,7 @@ export default class QuickStats extends Component {
             });
 
 
-            axios.get('http://20.247.206.163/api/supplier/count')
+            axios.get('/api/supplier/count')
             .then(response => {
                 this.setState({
                     suppliersCount: response.data.count,
@@ -40,7 +40,7 @@ export default class QuickStats extends Component {
                 console.log(error.message);
             });
 
-            axios.get('http://20.247.206.163/api/meeting/count')
+            axios.get('/api/meeting/count')
             .then(response => {
                 this.setState({
                     meetingsCount: response.data.count,
