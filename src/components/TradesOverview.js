@@ -33,7 +33,7 @@ export default class TradesOverview extends Component {
 
     async componentDidMount() {
         try {
-            const response = await axios.get('http://20.247.206.163/api/trans');
+            const response = await axios.get('/api/trans');
             const trades = response.data;
 
             // Toplam ticaret sayısını hesapla
